@@ -1,0 +1,103 @@
+ body{
+            background-image: url("download.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+         
+        div{
+            background-color: black;
+            opacity: 0.7;
+            height: 7cm;
+            width: 10cm;
+            margin-top: 5cm;
+            margin-left: 14cm;
+            border-radius: 10px;
+        }
+        .User{
+            height: 27px;
+            width: 7cm;
+            margin-left: 50px;
+            margin-top: 0cm;
+            border-radius: 12px;
+            opacity: 0.9;
+            background-color: black;
+            border-color: white;
+            color: aliceblue;
+        }
+        .pass{
+            height: 27px;
+            width: 7cm;
+            margin-left: 50px;
+            margin-top: 20px;
+            border-radius: 12px;
+            opacity: 0.9;
+            background-color: black;
+            border-color: white;
+            color: aliceblue;
+        }
+        .btn{
+            height: 32px;
+            width: 7cm;
+            margin-left: 50px;
+            border-radius: 12px;
+            border-color: white;
+            color: aliceblue;
+            background-color: rgb(250, 0, 146);
+            margin-top: 20px;
+        }
+        li{
+            list-style: none;
+            display: inline;
+            padding: 40px;
+            font-weight: bolder;
+            color: black;
+            
+        }
+        li>a{
+            text-decoration: none;
+            color: black;
+            align-items: center;
+            justify-content: center;
+            align-content: center;
+            padding: 10px;
+            font-weight: bolder;
+            font-size: larger;
+            font-style: italic;
+            
+           
+           
+            
+        }
+        ul{
+            text-align: right;
+            font-weight: bolder;
+           
+        }
+            
+            
+            
+            
+        
+        li>a:hover{
+            color: white;
+            background-color: black;
+            opacity: 0.5;
+            border-radius: 10px;
+        }
+        li{
+            padding: 10px;
+            font-weight: bolder;
+           
+        }
+        h1{
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-weight: bolder;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+        }
+      
+       
+    

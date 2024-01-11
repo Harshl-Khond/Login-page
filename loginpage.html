@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="loginpage.css">
+    <link rel="stylesheet" href="loginpage.js">
+    
+       
+</head>
+<body>
+   
+    <ul>
+      
+        <li><a href="">Home</a></li>
+        <li><a href="">Sign-Up</a></li>
+        <li><a href="">About-Us</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+
+    <div>
+    <form>
+        <h1>Login</h1>
+        <table>
+            <tr>
+                <th><input type="text" placeholder="Username" class="User" id="inp"></th>
+            </tr>
+            <tr>
+                <th> <input type="password" placeholder="Password" class="pass" id="pass"></th>
+            </tr>
+            <tr>
+                <th><button class="btn" id="btn">Sign-In</button></th>
+            </tr>
+        </table>
+    </form>
+</div>
+<script>
+    let inp=document.getElementById("inp")
+inp.addEventListener("input",fun1)
+let pass=document.getElementById("pass")
+pass.addEventListener("input",fun1)
+let btn=document.getElementById("btn")
+btn.addEventListener("click",fun1)
+let form=document.getElementsByTagName("form")
+form[0].addEventListener("submit",fun1)
+function fun1(){
+    if(inp.value=="harshal" && pass.value=="1234"){
+    form[0].setAttribute("action","loginsucc.html")
+    }
+    
+}
+
+</script>
+
+</body>
+</html>
